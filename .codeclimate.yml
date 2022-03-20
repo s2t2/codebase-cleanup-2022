@@ -1,0 +1,9 @@
+# see: https://docs.codeclimate.com/docs/duplication-concept
+version: "2"
+checks:
+  similar-code:
+    config:
+      threshold:
+  identical-code:
+    config:
+      threshold:

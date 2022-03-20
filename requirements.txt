@@ -1,0 +1,16 @@
+
+# environment variable management via ".env" file approach:
+python-dotenv
+
+# web requests / fetching data:
+requests
+
+# data processing:
+pandas
+
+# dataviz:
+plotly
+kaleido # for chart exports
+
+# email:
+#sendgrid==6.6.0 # this version may be older than current docs

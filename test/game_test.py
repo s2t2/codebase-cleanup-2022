@@ -1,5 +1,6 @@
 
 
+import pandas
 
 def test_the_thing():
     assert 2 == 2

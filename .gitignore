@@ -1,7 +1,10 @@
 
 
 figures/*.png
-data/*.csv
+
+
+data/products.csv
+data/unemployment.csv
 
 
 

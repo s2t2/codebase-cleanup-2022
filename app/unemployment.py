@@ -99,5 +99,5 @@ fig.write_image(img_filepath)
 
 print("CSV EXPORT...")
 df.drop(columns=["value"], inplace=True) # remove column to clean before exporting
-csv_filepath = os.path.join(os.path.dirname(__file__), "..", "data", "unemployment.csv")
+csv_filepath = os.path.join(os.path.dirname(__file__), "..", "reports", "unemployment.csv")
 df.to_csv(csv_filepath, index=False)

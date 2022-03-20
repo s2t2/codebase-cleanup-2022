@@ -6,4 +6,5 @@ def test_the_thing():
 
 
 def test_other_thing():
-    assert 2+2 == 5
+    #assert 2+2 == 5
+    assert 2+2 == 4

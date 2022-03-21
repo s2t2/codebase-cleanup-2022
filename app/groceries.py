@@ -33,7 +33,7 @@ print("THERE ARE", len(products), "PRODUCTS:")
 print("---------")
 
 for p in products:
-    print("..." + p["name"] + "   " + '${:.2f}'.format(p["price"]))
+    print("..." + p["name"] + "   " + '${:,.2f}'.format(p["price"]))
 
 
 all_prices = []
@@ -44,7 +44,7 @@ import statistics
 avg_price = statistics.mean(all_prices)
 
 print("---------")
-print("AVERAGE PRICE:", '${:.2f}'.format(avg_price))
+print("AVERAGE PRICE:", '${:,.2f}'.format(avg_price))
 
 
 

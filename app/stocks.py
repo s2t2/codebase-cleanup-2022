@@ -22,3 +22,4 @@ latest = df.iloc[0]
 print(symbol)
 print(latest["timestamp"])
 print(latest["close"])
+print('${:,.2f}'.format(latest["close"]))

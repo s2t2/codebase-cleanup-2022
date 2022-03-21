@@ -1,3 +1,16 @@
+
+
+figures/*.png
+
+
+data/products.csv
+data/unemployment.csv
+
+
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
